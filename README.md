@@ -2,8 +2,6 @@
 
 **alooper** stands for **Array Looper**, and it loops array items after each callback in a rather straitforward way.
 
----
-
 ## Installation
 
 ```
@@ -48,7 +46,7 @@ let looper = alooper.create(
 )
 ```
 
-**output**
+outputs
 
 ```
 processing foo 1
@@ -95,7 +93,7 @@ let looper2 = alooper.create(
 )
 ```
 
-**output**
+outputs
 
 ```
 processing bar a 100
