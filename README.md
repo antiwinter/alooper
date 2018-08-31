@@ -1,6 +1,6 @@
 ## What is **alooper** ?
 
-**alooper** stands for **Array Looper**, and it loops array items after each callback in a rather straitforward way.
+**alooper** stands for **Array Looper**, and it loops array items after each callback in a rather straightforward way.
 
 ## Installation
 
@@ -16,7 +16,6 @@ npm i --save alooper
 const alooper = require('alooper')
 
 let foo = [1, 2, 3, 4]
-let bar = { a: 100, b: 200, c: 300, d: 400 }
 
 function someProcess(x, done) {
   setTimeout(() => {
@@ -65,7 +64,6 @@ foo is processed
 ```js
 const alooper = require('alooper')
 
-let foo = [1, 2, 3, 4]
 let bar = { a: 100, b: 200, c: 300, d: 400 }
 
 function someProcess(x, done) {
@@ -74,16 +72,12 @@ function someProcess(x, done) {
   }, 1000)
 }
 
-// Example 2: loop an object
-
 let looper2 = alooper.create(
   bar,
   (d, k) => {
     console.log('processing bar', k, d)
     someProcess(d, r => {
       console.log(r)
-
-      // after processed, trigger next
       looper2.next()
     })
   },
