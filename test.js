@@ -36,9 +36,6 @@ let looper = alooper.create(
           // after processed, trigger next
           looper2.next()
         })
-      },
-      () => {
-        console.log('bar is processed')
       }
     )
   }

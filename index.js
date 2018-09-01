@@ -5,7 +5,7 @@ module.exports = {
       k: [],
       d: data,
       next() {
-        if (!l.k[l.i]) return end()
+        if (!l.k[l.i]) return end ? end() : 0
 
         let n = l.i++
         each(l.d[l.k[n]], l.k[n])

@@ -1,6 +1,6 @@
 {
   "name": "alooper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Loop each array item after callback in a straitforward way",
   "main": "index.js",
   "scripts": {
