@@ -6,7 +6,7 @@ let bar = { a: 100, b: 200, c: 300, d: 400 }
 function someProcess(x, done) {
   setTimeout(() => {
     done(x + 1)
-  }, 1000)
+  }, 200)
 }
 
 // Example 1: loop an array

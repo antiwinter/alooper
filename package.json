@@ -1,7 +1,7 @@
 {
   "name": "alooper",
-  "version": "1.0.4",
-  "description": "Loop each array item after callback in a straitforward way",
+  "version": "1.0.5",
+  "description": "Loops array items after each callback in a rather straightforward way",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
