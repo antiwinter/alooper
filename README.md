@@ -1,3 +1,5 @@
+## **async** is much better, so this is archived
+
 ## What is **alooper** ?
 
 **alooper** stands for **Array Looper**, and it loops array items after each callback in a rather straightforward way.
